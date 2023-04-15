@@ -4,8 +4,6 @@ import "../styles/body.css";
 
 function Body() {
   var destination = "";
-  const [results, setResult] = useState(null);
-  let ApiKey = "f56f24967aaf51182d1d4df628297c6d";
   var url;
   const [temp, setTemp] = useState(null);
   const [feel, setFeel] = useState(" ");
