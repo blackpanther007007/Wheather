@@ -24,7 +24,6 @@ function Body() {
       .then((response) => response.json())
       .then((result) => {
         console.log(result);
-        setResult(result);
         let tmp = result.main.temp;
         let feel = result.weather[0].description;
         tmp = Math.round(tmp);
