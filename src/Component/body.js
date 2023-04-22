@@ -39,7 +39,7 @@ function Body() {
     <div>
       <div className="container">
         <div className="form">
-          <form id="iam_form" action="/" method="post">
+          <div id="iam_form" >
             <input
               id="searchbar"
               onChange={handleSearch}
@@ -52,7 +52,7 @@ function Body() {
               type="button"
               value="FIND"
             />
-          </form>
+          </div>
         </div>
         <div className="details">
           <div className="tempe">
